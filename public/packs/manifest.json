@@ -1,0 +1,34 @@
+{
+  "add-memo-form.js": "/packs/js/add-memo-form-b936c3ddf48f21d1c87f.js",
+  "add-memo-form.js.map": "/packs/js/add-memo-form-b936c3ddf48f21d1c87f.js.map",
+  "application.js": "/packs/js/application-abeb87e28097688774d1.js",
+  "application.js.map": "/packs/js/application-abeb87e28097688774d1.js.map",
+  "entrypoints": {
+    "add-memo-form": {
+      "js": [
+        "/packs/js/add-memo-form-b936c3ddf48f21d1c87f.js"
+      ],
+      "js.map": [
+        "/packs/js/add-memo-form-b936c3ddf48f21d1c87f.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-abeb87e28097688774d1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-abeb87e28097688774d1.js.map"
+      ]
+    },
+    "preview": {
+      "js": [
+        "/packs/js/preview-c923b78c614f84918826.js"
+      ],
+      "js.map": [
+        "/packs/js/preview-c923b78c614f84918826.js.map"
+      ]
+    }
+  },
+  "preview.js": "/packs/js/preview-c923b78c614f84918826.js",
+  "preview.js.map": "/packs/js/preview-c923b78c614f84918826.js.map"
+}

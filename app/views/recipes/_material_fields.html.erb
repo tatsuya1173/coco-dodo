@@ -8,9 +8,12 @@
       </div>
         <div class="quantity_name">
          <%= f.label :quantity_name %>
-         <%= f.text_field :quantity_name %>    
+         <%= f.text_field :quantity_name %> 
+         <%= f.hidden_field :material_id, value: 1 %> 
+         <%#= material_id はいらないです。理由：material modelのidがあるからです。マイグレーションファイルを作ってmaterial_idカラムを削除しましょう。削除した後は、上のhiddenは不要です。 %>
+         
         <div>
-         <%= link_to_remove_association "削除", f%>
+         <%= link_to_remove_association "削除", f %>
      </div>
  </div>
 

@@ -30,10 +30,13 @@ class RecipesController < ApplicationController
   
     
     @recipe = Recipe.new(recipe_params)
-  
     # @recipe.materials = params[:material_id]
     # @material = @recipe.materials.build
     respond_to do |format|
+
+      
+      binding.pry
+      
       if @recipe.save
         format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
         format.json { render :show, status: :created, location: @recipe }

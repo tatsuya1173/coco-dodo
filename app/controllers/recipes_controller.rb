@@ -34,9 +34,6 @@ class RecipesController < ApplicationController
     # @material = @recipe.materials.build
     respond_to do |format|
 
-      
-      binding.pry
-      
       if @recipe.save
         format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
         format.json { render :show, status: :created, location: @recipe }

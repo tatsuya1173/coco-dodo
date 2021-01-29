@@ -1,0 +1,9 @@
+追加機能
+
+１　マイグレーションファイル作成
+２　Cookテーブル作成
+３　Cookモデル作成　belongs_to,CarrireWabeのメソッド記載
+４　Cookコントローラー作成
+５　Cook用のフォームを作成
+６　マテリアル用フォームにCook用フォームの引用を追加
+７　recipe/show.html.erbにテーブルから取り出したデータを表示
